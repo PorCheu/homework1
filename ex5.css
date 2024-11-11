@@ -1,0 +1,112 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+nav {
+    /*  TODO */
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.nav-left {
+    /*  TODO */
+    flex-grow: 2;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.nav-right .material-icons {
+    /*  TODO */
+    flex-grow: 2;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.nav-center {
+    /*  TODO */
+    flex-grow: 10;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-center input {
+    width: 90%;
+    padding: 9px;
+}
+
+.nav-center i {
+    display: flexbox;
+    background: #f5ecec;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    width: 93%;
+    margin: auto;
+    margin-top: 16px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+header span {
+    padding: 10px;
+    background: #e2e0e0;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 16px;
+}
+
+.active {
+    background: #000;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.video-container {
+    /*  TODO */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video {
+    /*  TODO */
+    margin-left: 20px;
+    margin-top: 2-px;
+}
+
+.video-thumbnail img {
+    /*  TODO */
+    margin-top: 20px;
+}
+
+.video-text {
+    /*  TODO */
+    display: flex;
+}
+
+.text {
+    line-height: 1.5;
+}
+
+.text p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.text p,
+.text span {
+    color: rgb(105, 102, 102);
+}
+
+.text strong {
+    font-weight: 500;
+}
